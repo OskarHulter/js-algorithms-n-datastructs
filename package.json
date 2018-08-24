@@ -1,22 +1,23 @@
 {
-  "name": "js-algorithms-n-datastructs",
-  "version": "1.0.0",
-  "description": "A bunch of implementations of algorithms and data structures.",
-  "main": "rockPaperMutation.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OskarHulter/js-algorithms-n-datastructs.git"
-  },
-  "author": "Oskar Hulter",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/OskarHulter/js-algorithms-n-datastructs/issues"
-  },
-  "homepage": "https://github.com/OskarHulter/js-algorithms-n-datastructs#readme",
-  "devDependencies": {
-    "jest": "^23.5.0"
-  }
+    "name": "js-algorithms-n-datastructs",
+    "version": "1.0.0",
+    "description": "A bunch of implementations of algorithms and data structures.",
+    "main": "rockPaperMutation.js",
+    "scripts": {
+        "test": "jest --watchAll"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OskarHulter/js-algorithms-n-datastructs.git"
+    },
+    "author": "Oskar Hulter",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/OskarHulter/js-algorithms-n-datastructs/issues"
+    },
+    "homepage": "https://github.com/OskarHulter/js-algorithms-n-datastructs#readme",
+    "devDependencies": {
+        "babel-preset-env": "^1.7.0",
+        "jest": "^23.5.0"
+    }
 }
